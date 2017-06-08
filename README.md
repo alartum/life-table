@@ -33,3 +33,4 @@ Run in the project's directory:
 qmake
 make all
 ```
+The binary can then be found in */bin* folder.

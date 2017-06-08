@@ -31,5 +31,5 @@ sudo apt-get install qt5-default
 Run in the project's directory:
 ``` bash
 qmake
-make
+make all
 ```

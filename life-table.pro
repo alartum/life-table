@@ -1,15 +1,17 @@
-#-------------------------------------------------
-#
-# Project created by QtCreator 2014-12-13T20:41:13
-#
-#-------------------------------------------------
-
 QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = LifeTable
+TARGET = life-table
+
 TEMPLATE = app
+
+OBJECTS_DIR = tmp
+MOC_DIR = tmp
+RCC_DIR = tmp
+UI_DIR  = tmp
+
+DESTDIR = bin
 
 
 SOURCES += main.cpp\
@@ -25,5 +27,3 @@ HEADERS  += \
     fieldwidget.h \
     tile.h \
     tilechoicewidget.h
-
-FORMS    +=

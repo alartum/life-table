@@ -6,8 +6,8 @@
 #include <QLabel>
 
 FieldEditWidget::FieldEditWidget(QWidget *parent) :
-    mField (10, 10),
-    QWidget(parent)
+    QWidget(parent),
+    mField (10, 10)
 {
     // Соединяем сигнал выбора тайла с соответствующим слотом.
     connect(&mTileSelection, SIGNAL(tileBrushSelected(const Tile&)), &mField, SLOT (setTileBrush(const Tile&)));

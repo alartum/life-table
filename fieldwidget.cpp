@@ -6,8 +6,8 @@
 FieldWidget::FieldWidget(int height, int width, QWidget *parent) :
     QTableView(parent),
     mTileBrush(-1),
-    mMaxHeight(700),
-    mMaxWidth(700)
+    mMaxHeight(600),
+    mMaxWidth(600)
 {
     // Изменяем внешний вид отображения.
     setShowGrid(false);

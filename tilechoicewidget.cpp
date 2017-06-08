@@ -15,8 +15,6 @@ TileChoiceWidget::TileChoiceWidget(QWidget *parent) :
     setHeaderLabels(list);
     // Ставим режим выбора: одновременно может быть выбран лишь 1 тайл.
     setSelectionMode(QAbstractItemView::SingleSelection);
-    // Запрещаем смену мест столбцов перетаскиванием.
-    header()->setSectionsMovable(false);
     for (int i = 0; i < 3; ++i) {
         // Ставим выравнивание по центру.
         headerItem()->setTextAlignment(i, Qt::AlignCenter);
